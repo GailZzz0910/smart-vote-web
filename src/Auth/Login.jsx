@@ -57,7 +57,7 @@ function Login({ setIsLoggedIn, setAuthToken }) {
 
   return (
     <div className="flex min-h-screen flex-row justify-center items-center">
-      <div className="absolute w-screen h-screen top-0 left-0 bg-[url(./images/auth_login_bg.jpg)] bg-cover -z-50 brightness-50" />
+      <div className="absolute w-screen h-screen top-0 left-0  bg-cover -z-50 brightness-50" />
       <div className="max-w-4xl flex flex-row w-full">
         <form
           onSubmit={handleSubmit}
