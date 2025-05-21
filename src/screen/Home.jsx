@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/side-bar";
 import dayjs from "dayjs";
 import axios from "axios";
 import "../globals.css";

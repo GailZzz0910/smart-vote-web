@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/side-bar";
 
 export default function VotersMonitoring({ setIsLoggedIn }) {
   const [users, setUsers] = useState([]);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { UserPlus, X } from "lucide-react";
 
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/side-bar";
 import axios from "axios";
 
 function AddCandidate({ setIsLoggedIn }) {

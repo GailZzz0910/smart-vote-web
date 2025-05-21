@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { io } from "socket.io-client";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/side-bar";
 import { InfoIcon, LoaderIcon, Search, ShieldAlert } from "lucide-react";
 import {
     BarChart,
