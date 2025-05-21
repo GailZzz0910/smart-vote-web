@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Sidebar from "./components/sidebar";
+import Sidebar from "../components/sidebar";
 import dayjs from "dayjs";
 import axios from "axios";
-import "./globals.css";
+import "../globals.css";
 
 function Home({ isLoggedIn, setIsLoggedIn }) {
   const [users, setUsers] = useState([]);
