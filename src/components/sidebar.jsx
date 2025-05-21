@@ -36,7 +36,6 @@ function Sidebar(props) {
       }
     };
 
-    // Initialize on first render
     handleResize();
 
     window.addEventListener('resize', handleResize);
@@ -82,7 +81,7 @@ function Sidebar(props) {
 
   return (
     <>
-      {/* Mobile overlay  */}
+
       {!isCollapsed && isMobile && (
         <div 
           className="fixed inset-0 bg-black/50 z-40 backdrop-blur-sm transition-opacity duration-300"
@@ -90,7 +89,6 @@ function Sidebar(props) {
         />
       )}
 
-      {/* Mobile menu button */}
       {isMobile && (
         <button
           onClick={toggleSidebar}
