@@ -13,7 +13,7 @@ function AddCandidate({ setIsLoggedIn }) {
         description: "",
         start_date: "",
         end_date: "",
-        candidates: [{ name: "", party: "" }], // limit to 5, check line 82 to 89
+        candidates: [{ name: "", party: "" }], 
     });
     const [cities, setCities] = useState([]);
     const [barangays, setBarangays] = useState([]);
@@ -24,7 +24,7 @@ function AddCandidate({ setIsLoggedIn }) {
         city_id: false,
         baranggay_id: false
     });
-    const apiUrl = import.meta.env.VITE_API_KEY;
+
     const navigate = useNavigate();
 
     useEffect(() => {
